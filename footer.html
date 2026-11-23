@@ -1,0 +1,50 @@
+<footer class="colmado-footer" aria-labelledby="colmado-footer-title">
+  <div class="colmado-footer__top">
+    <div class="colmado-footer__brand">
+      <a class="colmado-footer__logo" href="#inicio" aria-label="Colmado Click, inicio">
+        <span class="colmado-footer__logo-mark" aria-hidden="true">C</span>
+        <span>colmado<span class="colmado-footer__logo-accent">click</span></span>
+      </a>
+      <h2 class="colmado-footer__title" id="colmado-footer-title">
+        Tu colmado,<br />
+        <span>más cerca de todos.</span>
+      </h2>
+      <p class="colmado-footer__description">
+        Ideas y herramientas de marketing para que los colmados de barrio sigan creciendo.
+      </p>
+    </div>
+
+    <nav class="colmado-footer__nav" aria-label="Enlaces del pie de página">
+      <div class="colmado-footer__column">
+        <h3>Explora</h3>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="colmado-footer__column">
+        <h3>Lo que hacemos</h3>
+        <a href="#redes-sociales">Redes sociales</a>
+        <a href="#diseno">Diseño y contenido</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#presencia-digital">Presencia digital</a>
+      </div>
+    </nav>
+
+    <a class="colmado-footer__cta" href="#contacto">
+      <span class="colmado-footer__cta-label">¿Listo para crecer?</span>
+      <span class="colmado-footer__cta-link">Hablemos de tu colmado <span aria-hidden="true">↗</span></span>
+    </a>
+  </div>
+
+  <div class="colmado-footer__bottom">
+    <p>© <span data-current-year>2026</span> Colmado Click. Hecho para impulsar el comercio local.</p>
+    <a href="#inicio" class="colmado-footer__back-to-top">Volver arriba <span aria-hidden="true">↑</span></a>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('[data-current-year]').forEach((element) => {
+    element.textContent = new Date().getFullYear();
+  });
+</script>
